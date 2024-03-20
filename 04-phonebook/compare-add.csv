@@ -1,4 +1,21 @@
 ** Analysing add(key, value) speed **
 testfile,bytes,elements,time (ms)
 Binary search tree:
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\village.txt,4561,100,6
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\small-town.txt,44892,1000,5
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\town.txt,451617,10000,40
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\large-town.txt,2255053,50000,303
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\city.txt,4511688,100000,550
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\large-city.txt,22554540,500000,8494
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\metropolis.txt,45107513,1000000,29013
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\capital.txt,90209834,2000000,144305
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\megalopolis.txt,227564229,5000000,1424490
 Hashtable:
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\village.txt,4561,100,1
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\small-town.txt,44892,1000,4
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\town.txt,451617,10000,107
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\large-town.txt,2255053,50000,915
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\city.txt,4511688,100000,3062
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\large-city.txt,22554540,500000,41468
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\metropolis.txt,45107513,1000000,197021
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\capital.txt,90209834,2000000,1764842

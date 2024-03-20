@@ -1,4 +1,6 @@
 ** Analysing toSortedArray() speed **
 testfile,bytes,elements,time (ms)
 Binary search tree:
-Hashtable:
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\village.txt,4561,100,3
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\small-town.txt,44892,1000,6
+E:\代码库\JAVA\NJIT-DSA-2024-origin\04-phonebook\towns\town.txt,451617,10000,289

@@ -11,7 +11,6 @@ public class Algorithms {
 
     public static <T extends Comparable<T>> int binarySearch(T aValue, T [] fromArray, int fromIndex, int toIndex) {
         // TODO: you will implement this in step 2 below.
-
         if (aValue.compareTo(fromArray[fromIndex]) < 0 || aValue.compareTo(fromArray[toIndex]) > 0) {
             return -1;
         }
