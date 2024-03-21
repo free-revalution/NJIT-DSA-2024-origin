@@ -59,9 +59,9 @@ public class DailyTasks {
       String[] allTasks = tasks.split("\\r?\\n");
       for (String task : allTasks) {
          // TODO: Enqueue the task to your Queue implementation:
-         
+         dailyTaskQueue.enqueue(task);
       }
       // TODO: print out to the console the number of tasks in the queue:
-      
+      System.out.println("number of tasks: " + dailyTaskQueue.size());
    }
 }
