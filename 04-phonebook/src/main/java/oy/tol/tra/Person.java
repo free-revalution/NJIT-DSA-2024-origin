@@ -1,7 +1,9 @@
 package oy.tol.tra;
 
 
-public class Person implements Comparable<Person> {
+public class
+
+Person implements Comparable<Person> {
     private String firstName;
     private String lastName;
 
