@@ -64,6 +64,40 @@ public class Algorithms {
         }
     }
 
+    public static <T extends Comparable<T>> void fastSort(T [] array) {
+        quickSort(array, 0, array.length - 1);
+    }
+
+    public static <T extends Comparable<T>> void quickSort(T [] array, int begin, int end) {
+        if(begin>=end){
+            return;
+        }
+        int pivot=partition(array, begin, end);
+        quickSort(array, begin, pivot-1);
+        quickSort(array, pivot+1, end);
+    }
+    private static <T extends Comparable<T>> int partition(T [] array, int begin, int end) {
+        T p=array[begin];
+        int left=begin;
+        int right=end;
+        while(left!=right){
+            while ((left<right)&&array[right].compareTo(p)>0) {
+                right--;
+            }
+            while ((left<right)&&array[left].compareTo(p)<=0) {
+                left++;
+            }
+            if(left<right){
+                T temp = array[left];
+                array[left] = array[right];
+                array[right] = temp;
+            }
+        }
+        array[begin]=array[left];
+        array[left]=p;
+        return left;
+    }
+
     /**
      * Returns the plain Java int [] array for investigation.
      * @return The int array.
