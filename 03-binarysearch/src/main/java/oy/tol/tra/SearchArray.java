@@ -8,6 +8,7 @@ package oy.tol.tra;
  */
 public class SearchArray {
 
+
    private SearchArray() {
       // Empty
    }

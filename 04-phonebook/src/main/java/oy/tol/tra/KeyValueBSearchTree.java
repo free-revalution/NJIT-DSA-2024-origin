@@ -98,4 +98,13 @@ public class KeyValueBSearchTree<K extends Comparable<K>, V> implements Dictiona
         // structures.
     }
 
+    private int calculateDepth(TreeNode<K, V> node) {
+        if (node == null) {
+            return 0;
+        }
+        int leftDepth = calculateDepth(node.left);
+        int rightDepth = calculateDepth(node.right);
+        return 1 + Math.max(leftDepth, rightDepth);
+    }
+
 }
